@@ -1,0 +1,82 @@
+h1,
+h2 {
+    color: #bde4a8;
+    font-family: 'arial';
+    font-style: oblique;
+    font-size: 2em;
+}
+
+nav h4 {
+    color: #79b4a9;
+    font-family: 'arial';
+    font-style: oblique;
+    font-size: 1.5em;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(17, 151, 44, 0.1)), url("../images/background3.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+a:hover {
+    color: #676f54;
+}
+
+#pics {
+    border: 5px solid #676f54;
+}
+
+.ourstory {
+    border: 5px solid #9cc69b;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.imagedesign {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#welcome {
+    color: #79b4a9;
+    font-size: 4em;
+    font-style: oblique;
+}
+
+#topics {
+    color: #79b4a9;
+    font-family: 'arial';
+    font-size: 2em;
+    font-style: oblique;
+    border: 15px solid #9cc69b;
+    border-color: #9cc69b;
+    border-width: medium;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main div {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: #FFFFFF;
+    font-family: 'arial';
+    font-style: oblique;
+    font-size: 1.2em;
+    background-color: #9cc69b;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+}
+
+@media screen and (max-width: 50rem) {
+
+    Header,
+    Main,
+    Footer,
+    Form p {
+        Flex-direction: column;
+    }
+}
