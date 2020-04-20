@@ -73,11 +73,13 @@ main div {
 
 form p {
     display: flex;
-    margin-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 75%;
 }
 
 form label {
-    flex-basis: 33%;
+    flex-basis: 15%;
 }
 
 form input,
@@ -88,12 +90,32 @@ select {
     border-radius: 5px;
 }
 
+#firstname {
+    color: #9cc69b;
+}
+
+#lastname {
+    color: #9cc69b;
+}
+
+#email {
+    color: #9cc69b;
+}
+
+#message {
+    color: #9cc69b;
+}
+
 form select {
     text-align: center;
 }
 
+label {
+    color: #9cc69b;
+    font-style: italic;
+}
 
-@media screen and (max-width: 50rem) {
+@media screen and (max-width: 20rem) {
 
     header,
     main,
